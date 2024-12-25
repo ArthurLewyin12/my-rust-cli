@@ -1,0 +1,15 @@
+[package]
+name = "secure-cli"
+version = "0.2.0"
+edition = "2021"
+description = "Un CLI interactif pour générer des mots de passe et des tokens sécurisés"
+authors = ["Irie Emmanuel <irieemmanuel5@gmail.com>"]
+license = "MIT"
+
+
+[dependencies]
+rand = "0.8" # Pour générer des mots de passe aléatoires
+inquire = "0.7.5"
+indicatif = "0.17"
+dialoguer = "0.11.0"
+colored = "2.0"
